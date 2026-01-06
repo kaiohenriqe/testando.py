@@ -1,0 +1,18 @@
+# Solicitando a entrada com dois números e depois realizar a operação simples.
+
+num1 = int(input(("Digite o primeiro número: ")))
+num2 = int(input(("Digite o primeiro número: ")))
+
+operacao = input("Digite a operação que deseja realizar (+, -, *, /,): ")
+
+if operacao == "+":
+    print(num1 + num2)
+elif operacao == "-":
+    print(num1 - num2)
+elif operacao == "*":
+    print(num1 * num2)
+elif operacao == "/":
+    print(num1 / num2)
+else:
+    print("Operação inválida")
+    
